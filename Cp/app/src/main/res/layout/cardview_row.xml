@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#de61d5">
+        //card_view:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal|top"
+                android:background="#ff2b"
+                android:maxLines="3"
+                android:text="I am a Question..." />
+
+
+            <RelativeLayout
+
+                android:id="@+id/ln"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#19ff2b">
+
+                <TextView
+                    android:id="@+id/txtMale"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:maxLines="3"
+                    android:text=" " />
+
+                <TextView
+                    android:id="@+id/txtFemale"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+
+                    android:maxLines="3"
+                    android:text=" "
+                    android:layout_below="@+id/txtMale" />
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray">
+
+                <EditText
+
+                    android:id="@+id/editanswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:hint=" အေျဖေရးရန္"
+                    android:textSize="14sp"
+                    android:layout_alignBottom="@+id/btnsave"
+                    android:layout_toLeftOf="@+id/btnsave"
+                    android:layout_toStartOf="@+id/btnsave" />
+
+
+                <Button
+                    android:id="@+id/btnsave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#19ff2b"
+                    android:text="ေျဖ"
+                    android:textSize="14sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

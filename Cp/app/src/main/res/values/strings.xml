@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ZoneTwal</string>
+    <string name="action_settings">Settings</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="LoginBtn">Login</string>
+    <string name="SignupBtn">Sign Up</string>
+    <string name="LogoutBtn">Log Out</string>
+    <string name="Welcome">Welcome!</string>
+    <string name="message_hint">Say anything</string>
+    <string name="send">Send</string>
+    <string name="profile_me">My Profile Pic</string>
+    <string name="profile_other">Other profile pic</string>
+    <string name="s1">တနဂၤေႏြ</string>
+    <string name="s2">တနလၤာ</string>
+    <string name="s3">အဂၤါ</string>
+    <string name="s4">ဗုုဒၶဟူး</string>
+    <string name="s5">ၾကာသပေတး</string>
+    <string name="s6">ေသာၾကာ</string>
+    <string name="s7">စေန</string>
+    <string name="m1">ဇန္န၀ါရီ ၂၀၁၆ခုနွစ္</string>
+    <string name="m2">ေဖေဖာ္၀ါရီ ၂၀၁၆ခုနွစ္</string>
+    <string name="m3">မတ္ ၂၀၁၆ခုနွစ္</string>
+    <string name="m4">ဧျပီ ၂၀၁၆ခုနွစ္</string>
+    <string name="m5">ေမ ၂၀၁၆ခုနွစ္</string>
+    <string name="m6">ဇြန္ ၂၀၁၆ခုနွစ္</string>
+    <string name="m7">ဇူလိုင္ ၂၀၁၆ခုနွစ္</string>
+    <string name="m8">ၾသဂုတ္ ၂၀၁၆ခုနွစ္</string>
+    <string name="m9">စက္တင္ဘာ ၂၀၁၆ခုနွစ္</string>
+    <string name="m10">ေအာက္တိုဘာ ၂၀၁၆ခုနွစ္</string>
+    <string name="m11">နို၀င္ဘာ ၂၀၁၆ခုနွစ္</string>
+    <string name="m12">ဒီဇင္ဘာ  ၂၀၁၆ခုနွစ္</string>
+</resources>
